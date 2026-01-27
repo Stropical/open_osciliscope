@@ -1180,6 +1180,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1348,16 +1487,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Analog Devices"
+			(property "Description" "IC ADC 12BIT 3MSPS 8WLP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1367,7 +1497,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "IC ADC 12BIT 3MSPS 8WLP"
+			(property "MF" "Analog Devices"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1798,6 +1928,143 @@
 					(at 0 -5.08 90)
 					(length 2.54)
 					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Linear:NCP1117-3.3_SOT223"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NCP1117-3.3_SOT223"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "REGULATOR LDO 3.3V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NCP1117-3.3_SOT223_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "NCP1117-3.3_SOT223_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2454,10 +2721,112 @@
 		(uuid "2b67e22b-f44e-431a-a973-5fd8e4eaed53")
 	)
 	(junction
+		(at 234.95 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3438b5a9-ac20-418b-842e-ad6fa01fae26")
+	)
+	(junction
+		(at 248.92 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dfac2e8-d644-4db5-b157-3636cc0f0829")
+	)
+	(junction
+		(at 222.25 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52172ec7-dbe6-4821-99ba-4a3e9012839d")
+	)
+	(junction
 		(at 76.2 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f31eaca6-daac-4af3-b0d2-82cf8cdb514a")
+	)
+	(no_connect
+		(at 262.89 41.91)
+		(uuid "0f252489-2635-4f07-8e81-8fa57f0c6c90")
+	)
+	(wire
+		(pts
+			(xy 193.04 41.91) (xy 193.04 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a9d52b-c4a5-42a2-b506-a72b0305ff23")
+	)
+	(wire
+		(pts
+			(xy 222.25 41.91) (xy 234.95 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f2c198-ed66-4ca5-ad99-233a4f9e0f88")
+	)
+	(wire
+		(pts
+			(xy 222.25 41.91) (xy 215.9 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d46735-a074-4a8c-9736-dfaae8875716")
+	)
+	(wire
+		(pts
+			(xy 234.95 41.91) (xy 248.92 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1906600b-e9ef-4515-91e4-c3137d68f810")
+	)
+	(wire
+		(pts
+			(xy 193.04 54.61) (xy 193.04 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "243eed74-30bf-4d07-ad81-29d740ffffe8")
+	)
+	(wire
+		(pts
+			(xy 222.25 41.91) (xy 222.25 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4dba10-107d-4aa3-851f-83e83e648ba0")
+	)
+	(wire
+		(pts
+			(xy 248.92 54.61) (xy 248.92 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "528660a4-edbd-4ef0-926b-0c804799fbd4")
+	)
+	(wire
+		(pts
+			(xy 208.28 49.53) (xy 208.28 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a54eaec-846a-4b23-9348-2733fde5bc53")
 	)
 	(wire
 		(pts
@@ -2491,6 +2860,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 54.61) (xy 234.95 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79418aef-d0ef-4f84-b54d-b71e1b16a623")
+	)
+	(wire
+		(pts
 			(xy 76.2 88.9) (xy 76.2 101.6)
 		)
 		(stroke
@@ -2498,6 +2877,16 @@
 			(type default)
 		)
 		(uuid "7e46c97d-b48b-48d7-ab93-408206eab428")
+	)
+	(wire
+		(pts
+			(xy 234.95 41.91) (xy 234.95 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f8c50a4-b426-43f8-9b29-27a2411690a0")
 	)
 	(wire
 		(pts
@@ -2518,6 +2907,16 @@
 			(type default)
 		)
 		(uuid "a6c14847-1034-4848-8089-0dafa748f688")
+	)
+	(wire
+		(pts
+			(xy 248.92 41.91) (xy 262.89 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab5792f3-3c10-4560-a9f9-bb219704dd1c")
 	)
 	(wire
 		(pts
@@ -2591,6 +2990,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 54.61) (xy 222.25 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd489683-e0d4-42b1-a2c8-db9f146317be")
+	)
+	(wire
+		(pts
 			(xy 30.48 96.52) (xy 30.48 99.06)
 		)
 		(stroke
@@ -2598,6 +3007,26 @@
 			(type default)
 		)
 		(uuid "cf793a0c-862c-4175-a59d-5c1a1793635f")
+	)
+	(wire
+		(pts
+			(xy 200.66 41.91) (xy 193.04 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d96e78d7-f145-43ac-8e76-0f5295244470")
+	)
+	(wire
+		(pts
+			(xy 248.92 41.91) (xy 248.92 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed32e773-1ce8-43dd-b943-1b3ff9b265a7")
 	)
 	(wire
 		(pts
@@ -2618,6 +3047,28 @@
 			(type default)
 		)
 		(uuid "ff50b53f-5c76-4376-a584-578d3404ce90")
+	)
+	(global_label "3.3Vo"
+		(shape input)
+		(at 262.89 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1cb4b80f-1d0f-4ee7-9611-e5c15a123196")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.1366 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "RAW_IN_1"
 		(shape input)
@@ -2659,6 +3110,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5Vin"
+		(shape input)
+		(at 193.04 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb422dc0-5dc3-46a8-9537-160382a6c470")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.0029 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2727,6 +3200,85 @@
 			(project "Osciliscope"
 				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 222.25 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f5aa009-4800-44e8-9da1-d45a62db6aaf")
+		(property "Reference" "C2"
+			(at 226.06 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 226.06 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 223.2152 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eecs.engineering.oregonstate.edu/education/inventory_datasheets/P1502744917.pdf"
+			(at 222.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 222.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://eecs.engineering.oregonstate.edu/education/tekbotSuite/tekbot/pages/publicInventoryPart.php?stocknumber=P1502744917"
+			(at 222.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78918552-163e-4266-a78f-f8ce0d7f6530")
+		)
+		(pin "2"
+			(uuid "47219774-2718-4767-94f9-4204e4410ba9")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2887,6 +3439,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 234.95 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15c5d18a-2555-4cfb-ba65-4408c226cf3c")
+		(property "Reference" "#PWR05"
+			(at 234.95 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92d3326d-9562-4ceb-9cc2-bf85daf500b2")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 30.48 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2946,6 +3564,85 @@
 			(project "Osciliscope"
 				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 193.04 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a3224c8-0f1e-4332-9070-c771943a7085")
+		(property "Reference" "C1"
+			(at 196.85 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 196.85 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 194.0052 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eecs.engineering.oregonstate.edu/education/inventory_datasheets/P1502744917.pdf"
+			(at 193.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 193.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://eecs.engineering.oregonstate.edu/education/tekbotSuite/tekbot/pages/publicInventoryPart.php?stocknumber=P1502744917"
+			(at 193.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0894801e-046b-4636-9a85-15127d8f2ecb")
+		)
+		(pin "2"
+			(uuid "3de49033-5092-4253-adeb-eb3be7e86a36")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3166,28 +3863,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "a180a612-29d1-40ea-835d-053f707bb525")
+			(uuid "a180a612-29d1-40ea-835d-053f707bb526")
 		)
 		(pin "7"
-			(uuid "225a6555-d365-4b0a-81f9-b1de7d78d263")
+			(uuid "225a6555-d365-4b0a-81f9-b1de7d78d264")
 		)
 		(pin "6"
-			(uuid "5e03c41d-d826-4188-bcfc-d1b76dbdfd04")
+			(uuid "5e03c41d-d826-4188-bcfc-d1b76dbdfd05")
 		)
 		(pin "1"
-			(uuid "b2bfa4d4-3b4a-4d0b-9295-a7a8f06b92e0")
+			(uuid "b2bfa4d4-3b4a-4d0b-9295-a7a8f06b92e1")
 		)
 		(pin "3"
-			(uuid "be2b3702-2c59-438e-aea2-9f3df7167ce4")
+			(uuid "be2b3702-2c59-438e-aea2-9f3df7167ce5")
 		)
 		(pin "5"
-			(uuid "603c2d65-e7ab-4cff-8d62-50ef3624e3fb")
+			(uuid "603c2d65-e7ab-4cff-8d62-50ef3624e3fc")
 		)
 		(pin "8"
-			(uuid "99c79dfa-d666-4eb2-acb2-626a83cb92c3")
+			(uuid "99c79dfa-d666-4eb2-acb2-626a83cb92c4")
 		)
 		(pin "4"
-			(uuid "e8cbecb3-1c7f-48dd-a335-8cd9f4fad8b4")
+			(uuid "e8cbecb3-1c7f-48dd-a335-8cd9f4fad8b5")
 		)
 		(instances
 			(project ""
@@ -3554,6 +4251,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 222.25 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "896e12df-59d1-40dc-bb6a-e396c7964d2b")
+		(property "Reference" "#PWR04"
+			(at 222.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 222.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c049cbf-3e9f-44d9-96e8-28392a5fc763")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x20_Socket")
 		(at 109.22 58.42 0)
 		(unit 1)
@@ -3678,6 +4441,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 248.92 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9860f369-00d8-4891-8f0c-4d81f8cb51c3")
+		(property "Reference" "C4"
+			(at 252.73 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 252.73 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 249.8852 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eecs.engineering.oregonstate.edu/education/inventory_datasheets/P1502744917.pdf"
+			(at 248.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 248.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://eecs.engineering.oregonstate.edu/education/tekbotSuite/tekbot/pages/publicInventoryPart.php?stocknumber=P1502744917"
+			(at 248.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cc732d3-f7b4-4483-aad8-63d0408ab6a3")
+		)
+		(pin "2"
+			(uuid "4ee66362-deeb-4f3f-92cc-5b3db0b882e7")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 40.64 109.22 0)
 		(unit 1)
@@ -3747,6 +4589,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 234.95 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2e02a69-ecf1-4045-913e-42531cb2d0c8")
+		(property "Reference" "C3"
+			(at 238.76 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 238.76 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 235.9152 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eecs.engineering.oregonstate.edu/education/inventory_datasheets/P1502744917.pdf"
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://eecs.engineering.oregonstate.edu/education/tekbotSuite/tekbot/pages/publicInventoryPart.php?stocknumber=P1502744917"
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfc52b12-ecb5-40ce-af00-dd29deba3951")
+		)
+		(pin "2"
+			(uuid "59712612-e2b1-47e1-83a1-e93c40e1f9f0")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LM358")
 		(at 63.5 135.89 0)
 		(unit 2)
@@ -3799,34 +4720,171 @@
 			)
 		)
 		(pin "2"
-			(uuid "a180a612-29d1-40ea-835d-053f707bb525")
+			(uuid "a180a612-29d1-40ea-835d-053f707bb527")
 		)
 		(pin "7"
-			(uuid "225a6555-d365-4b0a-81f9-b1de7d78d263")
+			(uuid "225a6555-d365-4b0a-81f9-b1de7d78d265")
 		)
 		(pin "6"
-			(uuid "5e03c41d-d826-4188-bcfc-d1b76dbdfd04")
+			(uuid "5e03c41d-d826-4188-bcfc-d1b76dbdfd06")
 		)
 		(pin "1"
-			(uuid "b2bfa4d4-3b4a-4d0b-9295-a7a8f06b92e0")
+			(uuid "b2bfa4d4-3b4a-4d0b-9295-a7a8f06b92e2")
 		)
 		(pin "3"
-			(uuid "be2b3702-2c59-438e-aea2-9f3df7167ce4")
+			(uuid "be2b3702-2c59-438e-aea2-9f3df7167ce6")
 		)
 		(pin "5"
-			(uuid "603c2d65-e7ab-4cff-8d62-50ef3624e3fb")
+			(uuid "603c2d65-e7ab-4cff-8d62-50ef3624e3fd")
 		)
 		(pin "8"
-			(uuid "99c79dfa-d666-4eb2-acb2-626a83cb92c3")
+			(uuid "99c79dfa-d666-4eb2-acb2-626a83cb92c5")
 		)
 		(pin "4"
-			(uuid "e8cbecb3-1c7f-48dd-a335-8cd9f4fad8b4")
+			(uuid "e8cbecb3-1c7f-48dd-a335-8cd9f4fad8b6")
 		)
 		(instances
 			(project ""
 				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
 					(reference "U4")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:NCP1117-3.3_SOT223")
+		(at 208.28 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba6713e7-9b6a-493b-94d5-2a74d4a2b2a4")
+		(property "Reference" "U1"
+			(at 208.28 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCP1117-3.3_SOT223"
+			(at 208.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 208.28 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
+			(at 210.82 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"
+			(at 208.28 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f81aa40c-0ea0-4222-9c44-d051082764eb")
+		)
+		(pin "1"
+			(uuid "b32a98bc-9295-4f7d-a00b-1f255604ee63")
+		)
+		(pin "2"
+			(uuid "a2fff85c-2c3b-4d37-9ef6-c0f875f38f26")
+		)
+		(instances
+			(project ""
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cac20f25-4894-4826-855a-f97821d0df15")
+		(property "Reference" "#PWR03"
+			(at 208.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f28c70aa-65ce-4557-907f-cbb02ba85a2f")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "#PWR03")
+					(unit 1)
 				)
 			)
 		)
@@ -3905,6 +4963,72 @@
 			(project "Osciliscope"
 				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eeeac37b-1660-4b47-b5da-3cf91e030cd9")
+		(property "Reference" "#PWR07"
+			(at 248.92 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34f2a3e5-be3f-425f-9cb4-f5ccc833b9ef")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4063,6 +5187,72 @@
 			(project "Osciliscope"
 				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc218c9e-2d58-42a2-be9c-3f95d8f78437")
+		(property "Reference" "#PWR03"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ce8a2f7-222f-47fe-8415-5f039d0360a1")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
