@@ -843,6 +843,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "3 of these, + a single SPST\nThus 7 pins will be used for data return.\n3x CLK, 3x DT, 1x SPST\nAll fed by Vcc off RPI, common gnd"
+		(exclude_from_sim no)
+		(at 202.692 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6cdd6c64-cfa9-435b-b7ab-62039c513e09")
+	)
 	(junction
 		(at 190.5 90.17)
 		(diameter 0)
@@ -1643,7 +1653,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 205.486 86.36 0)
 			(effects
 				(font
