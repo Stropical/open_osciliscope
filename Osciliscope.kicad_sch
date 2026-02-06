@@ -4021,6 +4021,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "https://www.digikey.com/en/products/detail/texas-instruments/ADC082S101CIMM-NOPB/807951"
+			(at 167.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1b26b886-eef3-47e3-ba2e-1e172a0cf2b5")
 		)
