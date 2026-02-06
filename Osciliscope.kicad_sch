@@ -2635,6 +2635,12 @@
 		(uuid "52172ec7-dbe6-4821-99ba-4a3e9012839d")
 	)
 	(junction
+		(at 167.64 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f5332e2-8219-4acb-ab1a-514a49c2673f")
+	)
+	(junction
 		(at 193.04 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2655,6 +2661,16 @@
 			(type default)
 		)
 		(uuid "00163ddb-f508-4284-89a0-d59fab63f408")
+	)
+	(wire
+		(pts
+			(xy 167.64 92.71) (xy 179.07 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05326977-744b-4ec2-96f7-3fa6f490b7dd")
 	)
 	(wire
 		(pts
@@ -2945,6 +2961,16 @@
 			(type default)
 		)
 		(uuid "e60860cc-c49b-47e3-90d2-c66a1f19148b")
+	)
+	(wire
+		(pts
+			(xy 167.64 97.79) (xy 167.64 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e905b84d-606e-4469-9cfa-efc17740143f")
 	)
 	(wire
 		(pts
@@ -3530,6 +3556,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 179.07 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b3ea626-5b9b-477b-bbdf-d7b2e6c8911d")
+		(property "Reference" "C3"
+			(at 182.88 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 182.88 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 180.0352 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eecs.engineering.oregonstate.edu/education/inventory_datasheets/P1502744917.pdf"
+			(at 179.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 179.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://eecs.engineering.oregonstate.edu/education/tekbotSuite/tekbot/pages/publicInventoryPart.php?stocknumber=P1502744917"
+			(at 179.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31c565cf-8a4f-476b-a878-b81356762bd4")
+		)
+		(pin "2"
+			(uuid "caa25b52-e56f-4d47-a37f-a455a5ea081e")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 30.48 96.52 180)
 		(unit 1)
@@ -3929,10 +4034,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6e0bb32e-f26e-4c40-b8a4-959299f46235")
 		(property "Reference" "U2"
-			(at 169.7833 99.06 0)
+			(at 153.416 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3941,7 +4045,7 @@
 			)
 		)
 		(property "Value" "ADC082S101"
-			(at 169.7833 101.6 0)
+			(at 153.416 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5124,6 +5228,72 @@
 			(project "Osciliscope"
 				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fefd22c5-ad5e-453d-beec-5b90313f6f84")
+		(property "Reference" "#PWR07"
+			(at 179.07 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92d3e157-e81e-4292-9d58-2d981be52607")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
