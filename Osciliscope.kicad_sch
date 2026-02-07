@@ -259,6 +259,7 @@
 			)
 			(embedded_fonts no)
 		)
+<<<<<<< Updated upstream
 		(symbol "Amplifier_Operational:TLV9061xDBV"
 			(pin_names
 				(offset 0.127)
@@ -667,6 +668,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "Connector:Conn_01x04_Socket"
+=======
+		(symbol "Connector:Conn_01x20_Socket"
+>>>>>>> Stashed changes
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1054,6 +1058,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1171,6 +1343,329 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MAX19777AZA_T:MAX19777AZA_T"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 16.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MAX19777AZA_T"
+				(at -12.7 -19.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "MAX19777AZA_T:BGA8N35P2X4_85X143X37N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC ADC 12BIT 3MSPS 8WLP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Analog Devices"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "WLP-8 Maxim"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PRICE" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "WLP-8 Maxim"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/MAX19777AZA+T/Analog+Devices/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX19777AZA+T/Analog+Devices/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "MAX19777AZA+T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "AVAILABILITY" "Unavailable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "3Msps, Low-Power, Serial 12-Bit ADC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MAX19777AZA_T_0_0"
+				(rectangle
+					(start -12.7 -15.24)
+					(end 12.7 15.24)
+					(stroke
+						(width 0.41)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -17.78 10.16 0)
+					(length 5.08)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "AIN1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "AIN2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "CHSEL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 12.7 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1487,6 +1982,249 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_DPDT_x2"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DPDT_x2"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, dual pole double throw, separate symbols"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW*DPDT*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DPDT_x2_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_0_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.5748 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_2_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2124,6 +2862,12 @@
 		)
 	)
 	(junction
+		(at 260.35 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01349ec5-a365-4ef1-84a6-d32f53e9f977")
+	)
+	(junction
 		(at 40.64 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2148,6 +2892,7 @@
 		(uuid "52172ec7-dbe6-4821-99ba-4a3e9012839d")
 	)
 	(junction
+<<<<<<< Updated upstream
 		(at 49.53 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2160,6 +2905,8 @@
 		(uuid "8f5332e2-8219-4acb-ab1a-514a49c2673f")
 	)
 	(junction
+=======
+>>>>>>> Stashed changes
 		(at 193.04 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2177,39 +2924,21 @@
 		(color 0 0 0 0)
 		(uuid "f31eaca6-daac-4af3-b0d2-82cf8cdb514a")
 	)
-	(wire
-		(pts
-			(xy 177.8 111.76) (xy 181.61 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00163ddb-f508-4284-89a0-d59fab63f408")
+	(junction
+		(at 222.25 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5dcf32f-7ce0-404a-9303-6a32606b751d")
+	)
+	(junction
+		(at 234.95 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc6199f0-6244-422a-99f7-85c52de3bd51")
 	)
 	(wire
 		(pts
-			(xy 167.64 92.71) (xy 179.07 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05326977-744b-4ec2-96f7-3fa6f490b7dd")
-	)
-	(wire
-		(pts
-			(xy 177.8 109.22) (xy 181.61 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11e227dc-8068-43fb-9b63-617cb7205817")
-	)
-	(wire
-		(pts
-			(xy 222.25 41.91) (xy 232.41 41.91)
+			(xy 222.25 41.91) (xy 234.95 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2239,6 +2968,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 96.52) (xy 199.39 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f395a6-fe71-48d7-b7f3-b9017089ab19")
+	)
+	(wire
+		(pts
 			(xy 193.04 54.61) (xy 193.04 64.77)
 		)
 		(stroke
@@ -2249,6 +2988,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 39.37 138.43) (xy 39.37 140.97)
 		)
 		(stroke
@@ -2280,12 +3020,35 @@
 	(wire
 		(pts
 			(xy 165.1 97.79) (xy 167.64 97.79)
+=======
+			(xy 234.95 41.91) (xy 246.38 41.91)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4bbc32e8-298a-4e0e-899f-1c1094b133ed")
+		(uuid "2cde01e7-af28-4ada-820f-81d6e543639d")
+	)
+	(wire
+		(pts
+			(xy 209.55 93.98) (xy 213.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c3ff9ee-63b8-4596-8327-74cae3d1e6f2")
+	)
+	(wire
+		(pts
+			(xy 222.25 54.61) (xy 222.25 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "462bfe2f-deb6-432b-9eb9-6e2cd393262d")
 	)
 	(wire
 		(pts
@@ -2329,6 +3092,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 34.29 140.97) (xy 39.37 140.97)
 		)
 		(stroke
@@ -2369,6 +3133,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> Stashed changes
 			(xy 50.8 104.14) (xy 50.8 88.9)
 		)
 		(stroke
@@ -2399,6 +3165,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 96.52) (xy 266.7 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "700d907d-fa67-475b-a014-3fa073cef32d")
+	)
+	(wire
+		(pts
 			(xy 76.2 88.9) (xy 76.2 101.6)
 		)
 		(stroke
@@ -2409,33 +3185,57 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 52.07 153.67) (xy 52.07 151.13)
+=======
+			(xy 220.98 93.98) (xy 223.52 93.98)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "83db9038-539f-40dd-bd68-eedb38769884")
 	)
 	(wire
 		(pts
 			(xy 49.53 125.73) (xy 58.42 125.73)
+=======
+		(uuid "81b7d14f-7b06-4bfa-86e3-ae849dfdde0d")
+	)
+	(wire
+		(pts
+			(xy 234.95 64.77) (xy 222.25 64.77)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "85b8301f-807f-438f-bb7c-a0931430a6bf")
 	)
 	(wire
 		(pts
 			(xy 52.07 135.89) (xy 54.61 135.89)
+=======
+		(uuid "83935c05-3aa6-4fb6-b186-573f9e339766")
+	)
+	(wire
+		(pts
+			(xy 234.95 41.91) (xy 234.95 46.99)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "932274a0-66bc-4b3f-ae32-1ef079d6c5ef")
+=======
+		(uuid "85605890-3b52-45ce-9e2c-788e2e26846a")
+>>>>>>> Stashed changes
 	)
 	(wire
 		(pts
@@ -2449,23 +3249,49 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 74.93 138.43) (xy 69.85 138.43)
+=======
+			(xy 234.95 54.61) (xy 234.95 64.77)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "95f975f8-3a9d-45d6-9283-dd2c65fb8785")
 	)
 	(wire
 		(pts
 			(xy 39.37 140.97) (xy 39.37 142.24)
+=======
+		(uuid "9c7d044e-30b4-4629-955e-54732272cf9f")
+	)
+	(wire
+		(pts
+			(xy 260.35 92.71) (xy 260.35 96.52)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "9f283f55-c95e-4d60-96c1-ea3eb729d8f4")
+=======
+		(uuid "9cc1ecd3-b8c2-48cc-a602-c6898b56b8d4")
+	)
+	(wire
+		(pts
+			(xy 233.68 96.52) (xy 260.35 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04b0507-4855-49dd-a1d0-46ee738360a3")
+>>>>>>> Stashed changes
 	)
 	(wire
 		(pts
@@ -2549,26 +3375,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 116.84) (xy 181.61 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2ea42e6-3a4d-48cd-8df1-80ac938c1d3e")
-	)
-	(wire
-		(pts
-			(xy 222.25 54.61) (xy 222.25 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd489683-e0d4-42b1-a2c8-db9f146317be")
-	)
-	(wire
-		(pts
 			(xy 30.48 96.52) (xy 30.48 99.06)
 		)
 		(stroke
@@ -2599,6 +3405,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 74.93 138.43) (xy 77.47 138.43)
 		)
 		(stroke
@@ -2629,6 +3436,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> Stashed changes
 			(xy 193.04 41.91) (xy 193.04 46.99)
 		)
 		(stroke
@@ -2639,6 +3448,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 167.64 97.79) (xy 167.64 92.71)
 		)
 		(stroke
@@ -2669,6 +3479,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> Stashed changes
 			(xy 53.34 106.68) (xy 53.34 99.06)
 		)
 		(stroke
@@ -2679,13 +3491,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 109.22) (xy 157.48 109.22)
+			(xy 260.35 96.52) (xy 260.35 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3458448-6ad6-410f-a5fb-872b5c26c498")
+		(uuid "f8dce07e-be32-4a63-8421-fa74fd6e3341")
 	)
 	(wire
 		(pts
@@ -2697,31 +3509,19 @@
 		)
 		(uuid "ff50b53f-5c76-4376-a584-578d3404ce90")
 	)
-	(global_label "CHAN_2"
-		(shape input)
-		(at 154.94 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 209.55 99.06) (xy 223.52 99.06)
 		)
-		(uuid "0b6cb0dc-59ec-40d2-b1b1-c9a0e7d23eaa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.7581 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
+		(uuid "ffa75815-c85f-49f0-bbbb-03f667f1fdc5")
 	)
 	(global_label "3.3Vo"
 		(shape input)
-		(at 232.41 41.91 0)
+		(at 246.38 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2731,7 +3531,7 @@
 		)
 		(uuid "1cb4b80f-1d0f-4ee7-9611-e5c15a123196")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.6566 41.91 0)
+			(at 254.6266 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2741,9 +3541,31 @@
 			)
 		)
 	)
-	(global_label "CHAN_1"
+	(global_label "+Vcc"
 		(shape input)
-		(at 154.94 109.22 180)
+		(at 260.35 85.09 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22b28065-5104-4395-bb55-076554b74c19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.35 77.2666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BNCin"
+		(shape input)
+		(at 190.5 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2751,9 +3573,9 @@
 			)
 			(justify right)
 		)
-		(uuid "2b3cf05e-2a9a-48fd-ad99-53e52aeb74aa")
+		(uuid "30196285-007c-4dee-96f0-d5bcd85dfb8f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.7581 109.22 0)
+			(at 181.8905 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2785,9 +3607,9 @@
 			)
 		)
 	)
-	(global_label "RPI_DIN"
+	(global_label "adc"
 		(shape input)
-		(at 181.61 114.3 0)
+		(at 266.7 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2795,8 +3617,9 @@
 			)
 			(justify left)
 		)
-		(uuid "3dca90ca-8f6e-4bf8-886f-aa6118cb3ff7")
+		(uuid "473b4c15-ffed-4c22-b957-6e91a3c301ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+<<<<<<< Updated upstream
 			(at 191.9129 114.3 0)
 			(effects
 				(font
@@ -2908,6 +3731,9 @@
 		(uuid "7f1ab01a-5b1e-4cd9-b748-f598db370315")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 191.1871 109.22 0)
+=======
+			(at 273.0718 96.52 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2983,28 +3809,6 @@
 			)
 		)
 	)
-	(global_label "3.3Vo"
-		(shape input)
-		(at 165.1 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b9ff31f0-ddbd-408c-9661-83d8caac1e66")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.8534 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "5Vin"
 		(shape input)
 		(at 184.15 41.91 180)
@@ -3027,6 +3831,7 @@
 			)
 		)
 	)
+<<<<<<< Updated upstream
 	(global_label "RPI_SCLK"
 		(shape input)
 		(at 212.09 111.76 180)
@@ -3050,52 +3855,73 @@
 		)
 	)
 	(global_label "RPI_DOUT"
+=======
+	(global_label "-Vcc"
+>>>>>>> Stashed changes
 		(shape input)
-		(at 181.61 116.84 0)
+		(at 260.35 107.95 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "e09c1216-901e-4b3a-9738-360f1547a128")
+		(uuid "cf1b758b-4484-44b5-b66b-8dc92e970910")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.6062 116.84 0)
+			(at 260.35 115.7734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "Amplifier_Operational:TLV9061xDBV")
 		(at 62.23 138.43 0)
+=======
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 228.6 96.52 180)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+<<<<<<< Updated upstream
 		(uuid "06498661-fa65-4199-bf19-ffe85f7e8579")
 		(property "Reference" "U5"
 			(at 68.326 130.81 0)
+=======
+		(fields_autoplaced yes)
+		(uuid "0558931f-f3bd-4618-9f43-c965425d844c")
+		(property "Reference" "SW5"
+			(at 228.6 87.63 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Value" "TLV9061xDBV"
 			(at 68.326 133.35 0)
+=======
+		(property "Value" "SW_DPDT_x2"
+			(at 228.6 90.17 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 46.99 157.48 0)
 			(effects
@@ -3108,6 +3934,10 @@
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9061.pdf"
 			(at 62.23 118.11 0)
+=======
+		(property "Footprint" ""
+			(at 228.6 96.52 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3115,8 +3945,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Description" "10-MHz, RRIO, CMOS Operational Amplifiers for Cost-Sensitive Systems, SOT-23-5"
 			(at 62.23 138.43 0)
+=======
+		(property "Datasheet" "~"
+			(at 228.6 96.52 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3124,6 +3959,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(pin "2"
 			(uuid "5e8cb1de-ecdb-4946-a64d-22220e693514")
 		)
@@ -3138,11 +3974,43 @@
 		)
 		(pin "5"
 			(uuid "46efb147-0132-4d03-9974-efe7217695bf")
+=======
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 228.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "fa29e977-d071-4ed7-9b49-66d0d2701e10")
+		)
+		(pin "4"
+			(uuid "6ccb5c12-b85d-4db4-a312-3621394d3460")
+		)
+		(pin "2"
+			(uuid "86ec872e-572e-4695-9a05-e000f5c2dc0a")
+		)
+		(pin "5"
+			(uuid "8e1b4b9b-885b-4b59-8105-19a6f9907245")
+		)
+		(pin "3"
+			(uuid "078ad419-2c67-44f4-b233-c7733f22838c")
+		)
+		(pin "1"
+			(uuid "6a606689-1321-4c8f-8523-f7401173cf52")
+>>>>>>> Stashed changes
 		)
 		(instances
 			(project "Osciliscope"
 				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+<<<<<<< Updated upstream
 					(reference "U5")
+=======
+					(reference "SW5")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -3364,35 +4232,60 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "Device:C")
 		(at 179.07 96.52 0)
+=======
+		(lib_id "Amplifier_Operational:LM358")
+		(at 63.5 101.6 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< Updated upstream
 		(uuid "3b3ea626-5b9b-477b-bbdf-d7b2e6c8911d")
 		(property "Reference" "C3"
 			(at 182.88 95.2499 0)
+=======
+		(uuid "144159e3-7836-4460-ba6a-4eea2a987739")
+		(property "Reference" "U4"
+			(at 63.5 91.44 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< Updated upstream
 				(justify left)
 			)
 		)
 		(property "Value" "1uF"
 			(at 182.88 97.7899 0)
+=======
+			)
+		)
+		(property "Value" "LM358"
+			(at 63.5 93.98 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< Updated upstream
 				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 180.0352 100.33 0)
+=======
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 101.6 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3400,8 +4293,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Datasheet" "https://eecs.engineering.oregonstate.edu/education/inventory_datasheets/P1502744917.pdf"
 			(at 179.07 96.52 0)
+=======
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+			(at 63.5 101.6 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3409,8 +4307,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Description" "Unpolarized capacitor"
 			(at 179.07 96.52 0)
+=======
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 63.5 101.6 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3418,6 +4321,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Supplier" "https://eecs.engineering.oregonstate.edu/education/tekbotSuite/tekbot/pages/publicInventoryPart.php?stocknumber=P1502744917"
 			(at 179.07 96.52 0)
 			(effects
@@ -3437,6 +4341,36 @@
 			(project "Osciliscope"
 				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
 					(reference "C3")
+=======
+		(pin "2"
+			(uuid "a180a612-29d1-40ea-835d-053f707bb525")
+		)
+		(pin "7"
+			(uuid "225a6555-d365-4b0a-81f9-b1de7d78d263")
+		)
+		(pin "6"
+			(uuid "5e03c41d-d826-4188-bcfc-d1b76dbdfd04")
+		)
+		(pin "1"
+			(uuid "b2bfa4d4-3b4a-4d0b-9295-a7a8f06b92e0")
+		)
+		(pin "3"
+			(uuid "be2b3702-2c59-438e-aea2-9f3df7167ce4")
+		)
+		(pin "5"
+			(uuid "603c2d65-e7ab-4cff-8d62-50ef3624e3fb")
+		)
+		(pin "8"
+			(uuid "99c79dfa-d666-4eb2-acb2-626a83cb92c3")
+		)
+		(pin "4"
+			(uuid "e8cbecb3-1c7f-48dd-a335-8cd9f4fad8b4")
+		)
+		(instances
+			(project ""
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "U4")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -3816,6 +4750,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 234.95 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ffeebb6-50f2-411a-a390-1c1a21a569b3")
+		(property "Reference" "C3"
+			(at 238.76 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 238.76 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 235.9152 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eecs.engineering.oregonstate.edu/education/inventory_datasheets/P1502744917.pdf"
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://eecs.engineering.oregonstate.edu/education/tekbotSuite/tekbot/pages/publicInventoryPart.php?stocknumber=P1502744917"
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de0a543e-4072-4524-97ec-7de2a934ad6e")
+		)
+		(pin "2"
+			(uuid "4b582c7c-25f3-4b6d-a8cf-871f971946b6")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LM358")
 		(at 114.3 99.06 90)
 		(unit 3)
@@ -3902,6 +4915,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "power:GND")
 		(at 39.37 151.13 0)
 		(unit 1)
@@ -3970,41 +4984,35 @@
 	(symbol
 		(lib_id "Analog_ADC:ADC082S101")
 		(at 167.64 111.76 0)
+=======
+		(lib_id "Device:C")
+		(at 217.17 93.98 90)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6e0bb32e-f26e-4c40-b8a4-959299f46235")
-		(property "Reference" "U2"
-			(at 153.416 99.822 0)
+		(fields_autoplaced yes)
+		(uuid "6bcef943-03c5-495f-bd0d-4f85761211aa")
+		(property "Reference" "C4"
+			(at 217.17 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "ADC082S101"
-			(at 153.416 102.362 0)
+		(property "Value" "C"
+			(at 217.17 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-			(at 167.386 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/adc082s101.pdf"
-			(at 167.64 109.22 0)
+		(property "Footprint" ""
+			(at 220.98 93.0148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4012,8 +5020,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2 channel, 500 - 1000 ksps, 8-bit ADC, 2.7 - 5.25V supply, TSSOP-8 (MSOP-8, Texas VSSOP-8)"
-			(at 167.64 111.76 0)
+		(property "Datasheet" "~"
+			(at 217.17 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4021,6 +5029,16 @@
 				(hide yes)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 217.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+<<<<<<< Updated upstream
 		(property "Supplier" "https://www.digikey.com/en/products/detail/texas-instruments/ADC082S101CIMM-NOPB/807951"
 			(at 167.64 111.76 0)
 			(effects
@@ -4036,28 +5054,18 @@
 		(pin "5"
 			(uuid "feedba81-484d-4ec5-8c21-2203d849a805")
 		)
+=======
+>>>>>>> Stashed changes
 		(pin "1"
-			(uuid "342d412f-eecc-40af-ab18-4e52eaeeb967")
+			(uuid "cd691ab8-a2ec-4fc4-9b2f-af8240a727c1")
 		)
-		(pin "6"
-			(uuid "d1423a37-6d88-4fa3-9793-9faf04c267f3")
-		)
-		(pin "3"
-			(uuid "32957f9b-6e53-4d04-8e03-0a321def2644")
-		)
-		(pin "8"
-			(uuid "783ae879-5744-4160-b3e1-ac74bb926fa8")
-		)
-		(pin "4"
-			(uuid "0b4c4dba-61d9-440c-b49e-391b8dd8f4a2")
-		)
-		(pin "7"
-			(uuid "6f88d73e-8b6e-40e1-b572-f977f36bbcf1")
+		(pin "2"
+			(uuid "5f3d489a-adeb-4fd0-80ef-d4081ed5e7cc")
 		)
 		(instances
 			(project ""
 				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
-					(reference "U2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4212,6 +5220,213 @@
 		)
 	)
 	(symbol
+		(lib_id "MAX19777AZA_T:MAX19777AZA_T")
+		(at 149.86 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c1e506a-3da2-4308-a133-277367c4a779")
+		(property "Reference" "U3"
+			(at 149.86 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX19777AZA_T"
+			(at 149.86 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MAX19777AZA_T:BGA8N35P2X4_85X143X37N"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "IC ADC 12BIT 3MSPS 8WLP"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "WLP-8 Maxim"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "WLP-8 Maxim"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MAX19777AZA+T/Analog+Devices/view-part/?ref=eda"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX19777AZA+T/Analog+Devices/view-part/?ref=snap"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MAX19777AZA+T"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "3Msps, Low-Power, Serial 12-Bit ADC"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "B1"
+			(uuid "82be026e-310d-4e84-9b53-3926f8d36da9")
+		)
+		(pin "A4"
+			(uuid "04b2111d-6fd1-4026-beea-e5357a01e140")
+		)
+		(pin "B3"
+			(uuid "a62e2359-f6d7-452a-b97e-f88128780278")
+		)
+		(pin "B4"
+			(uuid "a1e432a2-0079-4953-abfa-ac8a3943705d")
+		)
+		(pin "A3"
+			(uuid "765de737-53d3-44e2-b230-027c1abe4c54")
+		)
+		(pin "A2"
+			(uuid "5857126c-3276-4415-952a-f47c53bb53c7")
+		)
+		(pin "A1"
+			(uuid "decec585-9add-40e4-88dc-e09edcc20052")
+		)
+		(pin "B2"
+			(uuid "f87ea365-41cb-451a-8e3e-7963344ae1e3")
+		)
+		(instances
+			(project ""
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 222.25 64.77 0)
 		(unit 1)
@@ -4349,6 +5564,86 @@
 			(project ""
 				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 204.47 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "930e3501-48bc-4f62-acb9-e7ad574d2a10")
+		(property "Reference" "SW4"
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT_x2"
+			(at 204.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 204.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "fa29e977-d071-4ed7-9b49-66d0d2701e10")
+		)
+		(pin "4"
+			(uuid "6ccb5c12-b85d-4db4-a312-3621394d3460")
+		)
+		(pin "2"
+			(uuid "21c8cbde-9269-4020-98bf-c807b869dc16")
+		)
+		(pin "5"
+			(uuid "8e1b4b9b-885b-4b59-8105-19a6f9907245")
+		)
+		(pin "3"
+			(uuid "ba05fbb6-c58e-4d22-83cc-e185f373d2c3")
+		)
+		(pin "1"
+			(uuid "92ba5539-4626-44ee-a2a9-5522fe1c38b3")
+		)
+		(instances
+			(project ""
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -4847,6 +6142,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 260.35 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5348a5a-f423-465d-917a-a4dd74450448")
+		(property "Reference" "D1"
+			(at 262.89 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 262.89 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 260.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 260.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 260.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7bceda7-f82e-43cd-a267-261ab18de939")
+		)
+		(pin "2"
+			(uuid "76c11cf6-0203-4a10-a489-d5a4ca06a6cf")
+		)
+		(instances
+			(project ""
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 208.28 64.77 0)
 		(unit 1)
@@ -4913,6 +6296,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "power:GND")
 		(at 167.64 125.73 0)
 		(unit 1)
@@ -4981,6 +6365,10 @@
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 217.17 111.76 0)
+=======
+		(lib_id "PCM_JLCPCB-Extended:RF, Connector, U.FL")
+		(at 95.25 151.13 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5049,6 +6437,94 @@
 			(project ""
 				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 260.35 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecd04121-23e8-4ce1-86d7-0840e892b634")
+		(property "Reference" "D2"
+			(at 262.89 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 262.89 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 260.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 260.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 260.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f4364df-17e4-4274-ade4-833e57418852")
+		)
+		(pin "2"
+			(uuid "041f4268-b949-407d-b62e-410ff30fd4ab")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5342,72 +6818,6 @@
 			(project "Osciliscope"
 				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
 					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 179.07 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fefd22c5-ad5e-453d-beec-5b90313f6f84")
-		(property "Reference" "#PWR07"
-			(at 179.07 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.07 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92d3e157-e81e-4292-9d58-2d981be52607")
-		)
-		(instances
-			(project "Osciliscope"
-				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
