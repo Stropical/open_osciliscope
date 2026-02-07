@@ -260,6 +260,7 @@
 			(embedded_fonts no)
 		)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		(symbol "Amplifier_Operational:TLV9061xDBV"
 			(pin_names
 				(offset 0.127)
@@ -669,6 +670,8 @@
 		)
 		(symbol "Connector:Conn_01x04_Socket"
 =======
+=======
+>>>>>>> Stashed changes
 		(symbol "Connector:Conn_01x20_Socket"
 >>>>>>> Stashed changes
 			(pin_names
@@ -2893,6 +2896,7 @@
 	)
 	(junction
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		(at 49.53 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2905,6 +2909,8 @@
 		(uuid "8f5332e2-8219-4acb-ab1a-514a49c2673f")
 	)
 	(junction
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 		(at 193.04 41.91)
@@ -2989,12 +2995,17 @@
 	(wire
 		(pts
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			(xy 39.37 138.43) (xy 39.37 140.97)
+=======
+			(xy 234.95 41.91) (xy 246.38 41.91)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "2f831a90-f90f-4f7f-9596-901314338bc3")
 	)
 	(wire
@@ -3028,6 +3039,8 @@
 			(width 0)
 			(type default)
 		)
+=======
+>>>>>>> Stashed changes
 		(uuid "2cde01e7-af28-4ada-820f-81d6e543639d")
 	)
 	(wire
@@ -3093,6 +3106,7 @@
 	(wire
 		(pts
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			(xy 34.29 140.97) (xy 39.37 140.97)
 		)
 		(stroke
@@ -3133,6 +3147,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 			(xy 50.8 104.14) (xy 50.8 88.9)
@@ -3186,7 +3202,11 @@
 	(wire
 		(pts
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			(xy 52.07 153.67) (xy 52.07 151.13)
+=======
+			(xy 220.98 93.98) (xy 223.52 93.98)
+>>>>>>> Stashed changes
 =======
 			(xy 220.98 93.98) (xy 223.52 93.98)
 >>>>>>> Stashed changes
@@ -3196,23 +3216,30 @@
 			(type default)
 		)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		(uuid "83db9038-539f-40dd-bd68-eedb38769884")
 	)
 	(wire
 		(pts
 			(xy 49.53 125.73) (xy 58.42 125.73)
 =======
+=======
+>>>>>>> Stashed changes
 		(uuid "81b7d14f-7b06-4bfa-86e3-ae849dfdde0d")
 	)
 	(wire
 		(pts
 			(xy 234.95 64.77) (xy 222.25 64.77)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		(uuid "85b8301f-807f-438f-bb7c-a0931430a6bf")
 	)
@@ -3220,11 +3247,16 @@
 		(pts
 			(xy 52.07 135.89) (xy 54.61 135.89)
 =======
+=======
+>>>>>>> Stashed changes
 		(uuid "83935c05-3aa6-4fb6-b186-573f9e339766")
 	)
 	(wire
 		(pts
 			(xy 234.95 41.91) (xy 234.95 46.99)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		)
 		(stroke
@@ -3232,7 +3264,11 @@
 			(type default)
 		)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		(uuid "932274a0-66bc-4b3f-ae32-1ef079d6c5ef")
+=======
+		(uuid "85605890-3b52-45ce-9e2c-788e2e26846a")
+>>>>>>> Stashed changes
 =======
 		(uuid "85605890-3b52-45ce-9e2c-788e2e26846a")
 >>>>>>> Stashed changes
@@ -3250,7 +3286,11 @@
 	(wire
 		(pts
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			(xy 74.93 138.43) (xy 69.85 138.43)
+=======
+			(xy 234.95 54.61) (xy 234.95 64.77)
+>>>>>>> Stashed changes
 =======
 			(xy 234.95 54.61) (xy 234.95 64.77)
 >>>>>>> Stashed changes
@@ -3260,17 +3300,23 @@
 			(type default)
 		)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		(uuid "95f975f8-3a9d-45d6-9283-dd2c65fb8785")
 	)
 	(wire
 		(pts
 			(xy 39.37 140.97) (xy 39.37 142.24)
 =======
+=======
+>>>>>>> Stashed changes
 		(uuid "9c7d044e-30b4-4629-955e-54732272cf9f")
 	)
 	(wire
 		(pts
 			(xy 260.35 92.71) (xy 260.35 96.52)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		)
 		(stroke
@@ -3278,8 +3324,11 @@
 			(type default)
 		)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		(uuid "9f283f55-c95e-4d60-96c1-ea3eb729d8f4")
 =======
+=======
+>>>>>>> Stashed changes
 		(uuid "9cc1ecd3-b8c2-48cc-a602-c6898b56b8d4")
 	)
 	(wire
@@ -3291,6 +3340,9 @@
 			(type default)
 		)
 		(uuid "a04b0507-4855-49dd-a1d0-46ee738360a3")
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	)
 	(wire
@@ -3406,6 +3458,7 @@
 	(wire
 		(pts
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			(xy 74.93 138.43) (xy 77.47 138.43)
 		)
 		(stroke
@@ -3438,6 +3491,8 @@
 		(pts
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 			(xy 193.04 41.91) (xy 193.04 46.99)
 		)
 		(stroke
@@ -3448,6 +3503,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			(xy 167.64 97.79) (xy 167.64 92.71)
 		)
@@ -3479,6 +3535,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 			(xy 53.34 106.68) (xy 53.34 99.06)
@@ -3619,6 +3677,7 @@
 		)
 		(uuid "473b4c15-ffed-4c22-b957-6e91a3c301ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			(at 191.9129 114.3 0)
 			(effects
@@ -3778,6 +3837,9 @@
 		(uuid "acfcd434-3b39-4a47-95b0-9eec4cc7197d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 87.6519 138.43 0)
+=======
+			(at 273.0718 96.52 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3832,9 +3894,15 @@
 		)
 	)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	(global_label "RPI_SCLK"
 		(shape input)
 		(at 212.09 111.76 180)
+=======
+	(global_label "-Vcc"
+		(shape input)
+		(at 260.35 107.95 270)
+>>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3842,6 +3910,7 @@
 			)
 			(justify right)
 		)
+<<<<<<< Updated upstream
 		(uuid "c485e09a-887f-40c8-9f4a-01e675179677")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 200.2148 111.76 0)
@@ -3924,11 +3993,16 @@
 <<<<<<< Updated upstream
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 46.99 157.48 0)
+=======
+		(uuid "cf1b758b-4484-44b5-b66b-8dc92e970910")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.35 115.7734 90)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4011,6 +4085,86 @@
 =======
 					(reference "SW5")
 >>>>>>> Stashed changes
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 228.6 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0558931f-f3bd-4618-9f43-c965425d844c")
+		(property "Reference" "SW5"
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT_x2"
+			(at 228.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 228.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "fa29e977-d071-4ed7-9b49-66d0d2701e10")
+		)
+		(pin "4"
+			(uuid "6ccb5c12-b85d-4db4-a312-3621394d3460")
+		)
+		(pin "2"
+			(uuid "86ec872e-572e-4695-9a05-e000f5c2dc0a")
+		)
+		(pin "5"
+			(uuid "8e1b4b9b-885b-4b59-8105-19a6f9907245")
+		)
+		(pin "3"
+			(uuid "078ad419-2c67-44f4-b233-c7733f22838c")
+		)
+		(pin "1"
+			(uuid "6a606689-1321-4c8f-8523-f7401173cf52")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -4377,6 +4531,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "power:GND")
 		(at 52.07 153.67 0)
 		(unit 1)
@@ -4444,6 +4599,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> Stashed changes
 		(lib_id "power:GND")
 		(at 30.48 96.52 180)
 		(unit 1)
@@ -4916,17 +5073,44 @@
 	)
 	(symbol
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		(lib_id "power:GND")
 		(at 39.37 151.13 0)
+=======
+		(lib_id "Device:C")
+		(at 217.17 93.98 90)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< Updated upstream
 		(uuid "67092d7d-7ece-40f0-b326-5639da700ec0")
 		(property "Reference" "#PWR09"
 			(at 39.37 157.48 0)
+=======
+		(uuid "6bcef943-03c5-495f-bd0d-4f85761211aa")
+		(property "Reference" "C4"
+			(at 217.17 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 217.17 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 93.0148 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,6 +5118,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Value" "GND"
 			(at 39.37 156.21 0)
 			(effects
@@ -4944,6 +5129,10 @@
 		)
 		(property "Footprint" ""
 			(at 39.37 151.13 0)
+=======
+		(property "Datasheet" "~"
+			(at 217.17 93.98 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4951,6 +5140,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Datasheet" ""
 			(at 39.37 151.13 0)
 			(effects
@@ -5041,6 +5231,10 @@
 <<<<<<< Updated upstream
 		(property "Supplier" "https://www.digikey.com/en/products/detail/texas-instruments/ADC082S101CIMM-NOPB/807951"
 			(at 167.64 111.76 0)
+=======
+		(property "Description" "Unpolarized capacitor"
+			(at 217.17 93.98 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5048,12 +5242,15 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(pin "2"
 			(uuid "1b26b886-eef3-47e3-ba2e-1e172a0cf2b5")
 		)
 		(pin "5"
 			(uuid "feedba81-484d-4ec5-8c21-2203d849a805")
 		)
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 		(pin "1"
@@ -5564,6 +5761,86 @@
 			(project ""
 				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 204.47 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "930e3501-48bc-4f62-acb9-e7ad574d2a10")
+		(property "Reference" "SW4"
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT_x2"
+			(at 204.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 204.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "fa29e977-d071-4ed7-9b49-66d0d2701e10")
+		)
+		(pin "4"
+			(uuid "6ccb5c12-b85d-4db4-a312-3621394d3460")
+		)
+		(pin "2"
+			(uuid "21c8cbde-9269-4020-98bf-c807b869dc16")
+		)
+		(pin "5"
+			(uuid "8e1b4b9b-885b-4b59-8105-19a6f9907245")
+		)
+		(pin "3"
+			(uuid "ba05fbb6-c58e-4d22-83cc-e185f373d2c3")
+		)
+		(pin "1"
+			(uuid "92ba5539-4626-44ee-a2a9-5522fe1c38b3")
+		)
+		(instances
+			(project ""
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -6230,6 +6507,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 260.35 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5348a5a-f423-465d-917a-a4dd74450448")
+		(property "Reference" "D1"
+			(at 262.89 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 262.89 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 260.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 260.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 260.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7bceda7-f82e-43cd-a267-261ab18de939")
+		)
+		(pin "2"
+			(uuid "76c11cf6-0203-4a10-a489-d5a4ca06a6cf")
+		)
+		(instances
+			(project ""
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 208.28 64.77 0)
 		(unit 1)
@@ -6296,6 +6661,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		(lib_id "power:GND")
 		(at 167.64 125.73 0)
@@ -6366,6 +6732,8 @@
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 217.17 111.76 0)
 =======
+=======
+>>>>>>> Stashed changes
 		(lib_id "PCM_JLCPCB-Extended:RF, Connector, U.FL")
 		(at 95.25 151.13 0)
 >>>>>>> Stashed changes
@@ -6437,6 +6805,94 @@
 			(project ""
 				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 260.35 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecd04121-23e8-4ce1-86d7-0840e892b634")
+		(property "Reference" "D2"
+			(at 262.89 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 262.89 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 260.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 260.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 260.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f4364df-17e4-4274-ade4-833e57418852")
+		)
+		(pin "2"
+			(uuid "041f4268-b949-407d-b62e-410ff30fd4ab")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6817,7 +7273,133 @@
 		(instances
 			(project "Osciliscope"
 				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+<<<<<<< Updated upstream
 					(reference "#PWR0101")
+=======
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x20_Socket")
+		(at 114.3 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdd28f36-990f-4cfa-9e06-be3b90e09e8d")
+		(property "Reference" "J4"
+			(at 115.316 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x20_Socket"
+			(at 114.935 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x20, script generated"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5be73d22-00f4-40ba-ba72-df795d12f0ce")
+		)
+		(pin "2"
+			(uuid "a8757cff-1daf-4641-ab3e-e3f5ee722e6d")
+		)
+		(pin "3"
+			(uuid "fdf2a701-d9c6-452c-909d-9faf766b8552")
+		)
+		(pin "4"
+			(uuid "36df463a-3055-4508-b8ab-0b1e42d02b40")
+		)
+		(pin "5"
+			(uuid "cbc31653-6c16-4f4c-88f0-4ccc13a18993")
+		)
+		(pin "6"
+			(uuid "30e9d7e6-a77d-4f54-937c-b052d1d45855")
+		)
+		(pin "7"
+			(uuid "0e7aa147-36de-4dcb-a459-2583115946fe")
+		)
+		(pin "8"
+			(uuid "e8171d05-6d7f-4ed0-87dd-f3fcddf0386a")
+		)
+		(pin "9"
+			(uuid "c5ff5967-b7ee-4601-ab1c-056a98ad6fb8")
+		)
+		(pin "10"
+			(uuid "2997cd11-500b-40a8-ae15-b1dbca16e86b")
+		)
+		(pin "11"
+			(uuid "5523a779-6e2d-4bb5-982a-793d4d2e7db4")
+		)
+		(pin "12"
+			(uuid "b596909e-4e93-47e3-b33f-ad721eb898cb")
+		)
+		(pin "13"
+			(uuid "7f937e2e-0e79-4604-aaea-4c1242f98558")
+		)
+		(pin "14"
+			(uuid "25d68c30-13a3-4bf2-8c04-0b8c79ee180e")
+		)
+		(pin "15"
+			(uuid "363252fd-0668-4393-8feb-341c5aa484c8")
+		)
+		(pin "16"
+			(uuid "abac5c98-b0b5-43d8-9fa9-01f464be05b0")
+		)
+		(pin "17"
+			(uuid "b8aa13c2-fadb-487e-a07e-b5011a653f61")
+		)
+		(pin "18"
+			(uuid "aef5683f-e495-4622-a9a5-77c573213f20")
+		)
+		(pin "19"
+			(uuid "5700af81-c479-4700-a1b4-753a27ebf377")
+		)
+		(pin "20"
+			(uuid "fe4a2776-afe6-4c47-a48c-fe3acbd6294f")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "J4")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
