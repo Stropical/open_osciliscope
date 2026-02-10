@@ -2416,6 +2416,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "FUSB307B PD + USB-C"
+		(exclude_from_sim no)
+		(at 182 46.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "54fa1607-7e00-42c6-825c-3c76618f6bc6")
+	)
+	(text "FUSB307B PD"
+		(exclude_from_sim no)
+		(at 268.5 11.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "66a93c20-e70f-4d7f-9a97-c747ad6674df")
+	)
+	(text "FUSB307B PD + USB-C"
+		(exclude_from_sim no)
+		(at 268.5 11.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7f704def-79ac-4744-af98-387ac4fcd2ed")
+	)
 	(junction
 		(at 119.38 58.42)
 		(diameter 0)
@@ -2534,6 +2564,26 @@
 		)
 		(uuid "00163ddb-f508-4284-89a0-d59fab63f408")
 	)
+	(polyline
+		(pts
+			(xy 287 50) (xy 250 50)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03616461-fc07-4c1a-84a6-f69aeac2fdab")
+	)
+	(polyline
+		(pts
+			(xy 287 50) (xy 250 50)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07481c76-7954-4d73-a2bb-5f6a6e47e600")
+	)
 	(wire
 		(pts
 			(xy 68.58 55.88) (xy 73.66 55.88)
@@ -2624,6 +2674,26 @@
 		)
 		(uuid "1d8e13d2-8e94-45bd-8ebe-7a811b92c2f3")
 	)
+	(polyline
+		(pts
+			(xy 250 50) (xy 250 10)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e7cb133-3684-47c8-9136-c3fd73d665ed")
+	)
+	(polyline
+		(pts
+			(xy 250 10) (xy 287 10)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2124c70d-e37c-43ae-8e38-2724a9f84a24")
+	)
 	(wire
 		(pts
 			(xy 149.86 52.07) (xy 149.86 62.23)
@@ -2644,6 +2714,16 @@
 		)
 		(uuid "32639aab-bb9d-4531-a8a3-a8ea349bb6d7")
 	)
+	(polyline
+		(pts
+			(xy 250 50) (xy 250 10)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a6c700-32de-4a33-9a6f-1e869716f98d")
+	)
 	(wire
 		(pts
 			(xy 41.91 91.44) (xy 43.18 91.44)
@@ -2653,6 +2733,36 @@
 			(type default)
 		)
 		(uuid "352c46b9-2816-4c51-8d1c-3f0819de5871")
+	)
+	(polyline
+		(pts
+			(xy 250 10) (xy 287 10)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f61b951-503e-430e-b287-b3ae4745cd11")
+	)
+	(polyline
+		(pts
+			(xy 287 10) (xy 287 50)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d275d2-bd4c-43fe-8d3f-8d4a2b340cde")
+	)
+	(polyline
+		(pts
+			(xy 287 10) (xy 287 50)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47733c73-fa03-414d-bad0-464b9f16dfb2")
 	)
 	(wire
 		(pts
@@ -2884,6 +2994,16 @@
 		)
 		(uuid "b052ffe7-01ec-4929-a596-e2db29446259")
 	)
+	(polyline
+		(pts
+			(xy 132 45) (xy 232 45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b08bee57-02b0-45cb-b0fa-9c8a3982019c")
+	)
 	(wire
 		(pts
 			(xy 88.9 88.9) (xy 87.63 88.9)
@@ -2943,6 +3063,16 @@
 			(type default)
 		)
 		(uuid "c554c36b-ab12-4467-b725-42033b7a2a7e")
+	)
+	(polyline
+		(pts
+			(xy 232 45) (xy 232 145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9784166-be96-4c99-a80f-00f250fa39ab")
 	)
 	(wire
 		(pts
@@ -3173,6 +3303,26 @@
 			(type default)
 		)
 		(uuid "f43b485f-d4da-4f8c-af81-ff8cff312cd5")
+	)
+	(polyline
+		(pts
+			(xy 232 145) (xy 132 145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd31e5e5-9843-4177-91da-a758788f870f")
+	)
+	(polyline
+		(pts
+			(xy 132 145) (xy 132 45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe344971-5d00-4e7d-b21b-68e652825660")
 	)
 	(wire
 		(pts
