@@ -11183,7 +11183,7 @@
 		(layer "Edge.Cuts")
 		(uuid "53fdae74-dd0b-4808-bf15-d1815d609a96")
 	)
-	(gr_text "DESIGNED BY:\nEthan Marreel\nJordan ___\nDaniel ___"
+	(gr_text "DESIGNED BY:\nEthan Marreel\nJordan Savin\nDaniel Stucker"
 		(at 113.8 126.4 0)
 		(layer "F.SilkS")
 		(uuid "153dfc5d-adec-4ca2-a710-0f431d2dce8e")

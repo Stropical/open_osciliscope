@@ -4586,7 +4586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eecs.engineering.oregonstate.edu/education/inventory_datasheets/P1502744917.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf"
 			(at 143.51 92.71 0)
 			(effects
 				(font
@@ -4808,7 +4808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eecs.engineering.oregonstate.edu/education/inventory_datasheets/P1502744917.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf"
 			(at 149.86 48.26 0)
 			(effects
 				(font
@@ -5509,7 +5509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eecs.engineering.oregonstate.edu/education/inventory_datasheets/P1502744917.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf"
 			(at 129.54 54.61 0)
 			(effects
 				(font
@@ -5588,7 +5588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eecs.engineering.oregonstate.edu/education/inventory_datasheets/P1502744917.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf"
 			(at 129.54 62.23 0)
 			(effects
 				(font
@@ -5755,7 +5755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eecs.engineering.oregonstate.edu/education/inventory_datasheets/P1502744917.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf"
 			(at 212.09 48.26 0)
 			(effects
 				(font
@@ -5987,7 +5987,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 38.1 53.34 90)
 			(effects
 				(font
@@ -6004,7 +6004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf"
 			(at 38.1 58.42 0)
 			(effects
 				(font
@@ -6285,7 +6285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
 			(at 68.58 60.96 0)
 			(effects
 				(font
@@ -6497,7 +6497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 27.94 54.61 0)
 			(effects
 				(font
@@ -6958,7 +6958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 119.38 54.61 0)
 			(effects
 				(font
@@ -7224,7 +7224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
 			(at 69.85 91.44 0)
 			(effects
 				(font
@@ -7294,7 +7294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 29.21 85.09 0)
 			(effects
 				(font
@@ -7430,7 +7430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eecs.engineering.oregonstate.edu/education/inventory_datasheets/P1502744917.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf"
 			(at 201.93 48.26 0)
 			(effects
 				(font
@@ -7509,7 +7509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eecs.engineering.oregonstate.edu/education/inventory_datasheets/P1502744917.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf"
 			(at 190.5 48.26 0)
 			(effects
 				(font
@@ -7664,7 +7664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 119.38 62.23 0)
 			(effects
 				(font
@@ -7872,7 +7872,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 35.56 83.82 90)
 			(effects
 				(font
@@ -7889,7 +7889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf"
 			(at 35.56 88.9 0)
 			(effects
 				(font
