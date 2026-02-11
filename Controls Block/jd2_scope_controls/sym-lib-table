@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2026-02-11_06-00-16")(type "KiCad")(uri "${KIPRJMOD}/footprints/RMCF0402FT10K0/KiCADv6/2026-02-11_06-00-16.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-02-11_06-17-51")(type "KiCad")(uri "${KIPRJMOD}/footprints/UVZ2F010MED1TD/KiCADv6/2026-02-11_06-17-51.kicad_sym")(options "")(descr ""))
+  (lib (name "fp1")(type "KiCad")(uri "${KIPRJMOD}/fp1.kicad_sym")(options "")(descr ""))
+)
