@@ -4753,6 +4753,12 @@
 		(uuid "11bf4342-078c-4999-9dca-2ec2b2e859bc")
 	)
 	(junction
+		(at 43.18 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15c0d201-497c-4465-9a35-0aa5ee8e941c")
+	)
+	(junction
 		(at 100.33 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4777,6 +4783,12 @@
 		(uuid "2f5cd0b0-9738-4707-ba70-630cb41ae378")
 	)
 	(junction
+		(at 41.91 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30d28ae4-7338-4429-bdbf-7c66b9396201")
+	)
+	(junction
 		(at 168.91 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4789,16 +4801,28 @@
 		(uuid "366eba14-422a-4b9f-a148-7a82555b8f74")
 	)
 	(junction
-		(at 31.75 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36fe6481-bdb6-4523-a4bc-95325520c11c")
-	)
-	(junction
 		(at 161.29 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b6f53ca-0fc4-4762-9f26-1797e272f20a")
+	)
+	(junction
+		(at 33.02 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f85d962-eb05-4ef4-984e-c7884a9bebc2")
+	)
+	(junction
+		(at 101.6 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "443184b8-4997-4692-9c57-c07d1e44d23f")
+	)
+	(junction
+		(at 77.47 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48682d97-5a6d-4cea-a149-488603db2803")
 	)
 	(junction
 		(at 71.12 20.32)
@@ -4813,10 +4837,22 @@
 		(uuid "57a84b31-d73f-48bb-b988-43d432108cab")
 	)
 	(junction
+		(at 52.07 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d2503b8-ad60-49cb-9640-ebb3070dc3fe")
+	)
+	(junction
 		(at 77.47 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e9cee1a-38d6-4d56-8396-43af0c629ef9")
+	)
+	(junction
+		(at 77.47 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63e23714-4b84-4180-8750-14b5f5beae36")
 	)
 	(junction
 		(at 248.92 111.76)
@@ -4831,22 +4867,28 @@
 		(uuid "6bb24631-a4b8-4c8a-b71f-cdf64dcec9fc")
 	)
 	(junction
-		(at 34.29 60.96)
+		(at 49.53 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "721c3008-2f0e-4291-86f7-19ce2c40e545")
+		(uuid "7917804e-2801-4166-8464-4c506dc97779")
 	)
 	(junction
-		(at 35.56 91.44)
+		(at 100.33 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "830c877f-f7f5-42af-95d1-6aef475748da")
+		(uuid "7de9fcab-a178-41f9-8fff-0c1435cc7231")
 	)
 	(junction
 		(at 203.2 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "838af46f-1989-4cc5-a6d4-4275c37b2c90")
+	)
+	(junction
+		(at 43.18 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d7457c3-f505-4d4b-bd7a-1713afacf79c")
 	)
 	(junction
 		(at 132.08 93.98)
@@ -4867,6 +4909,12 @@
 		(uuid "91f81ac7-2f2c-4a5c-9ce9-a9dd59f39a47")
 	)
 	(junction
+		(at 33.02 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9354cc49-be5e-4459-a47d-f64fb0208a67")
+	)
+	(junction
 		(at 71.12 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4877,12 +4925,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f4bebfe-0427-4172-ac88-b97ef8209f83")
-	)
-	(junction
-		(at 38.1 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a29760a0-6884-453f-b10b-a198ab782792")
 	)
 	(junction
 		(at 77.47 91.44)
@@ -4903,6 +4945,18 @@
 		(uuid "ad478aa9-4602-43a0-a110-908790107671")
 	)
 	(junction
+		(at 31.75 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b074f79b-5d68-4395-9abe-6c325fb445fd")
+	)
+	(junction
+		(at 33.02 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b41beaf1-3d6f-4d41-bcd5-81a06cb9cbf6")
+	)
+	(junction
 		(at 248.92 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4913,6 +4967,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d979950f-94d9-4799-8ae5-409a04869b12")
+	)
+	(junction
+		(at 38.1 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df06ae90-e5c7-4f02-adcf-c715939f5469")
 	)
 	(junction
 		(at 271.78 111.76)
@@ -4938,13 +4998,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 63.5) (xy 43.18 63.5)
+			(xy 38.1 60.96) (xy 38.1 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "008c006b-1664-47b6-83c5-c6f2aaa16106")
+		(uuid "0301c4a3-9833-4a43-b89d-66fb5901f049")
 	)
 	(wire
 		(pts
@@ -4955,6 +5015,26 @@
 			(type default)
 		)
 		(uuid "04f45678-41a9-4636-8a93-d75484babf52")
+	)
+	(wire
+		(pts
+			(xy 38.1 76.2) (xy 33.02 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "098775d4-4252-4e5f-8e42-37504edf33da")
+	)
+	(wire
+		(pts
+			(xy 77.47 104.14) (xy 77.47 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c06a149-7aa5-4cf1-b8d3-2bd2dccbb4dd")
 	)
 	(wire
 		(pts
@@ -5018,7 +5098,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 88.9) (xy 38.1 91.44)
+			(xy 43.18 88.9) (xy 43.18 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5138,6 +5218,26 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 58.42) (xy 38.1 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fb8c5f9-12dd-4dce-b1b4-730921082897")
+	)
+	(wire
+		(pts
+			(xy 52.07 85.09) (xy 52.07 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "206b446b-b153-4783-86e5-41e32ef02512")
+	)
+	(wire
+		(pts
 			(xy 248.92 63.5) (xy 248.92 64.77)
 		)
 		(stroke
@@ -5198,6 +5298,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 63.5) (xy 54.61 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25606ed6-2aff-413f-b4c9-e6572ce58593")
+	)
+	(wire
+		(pts
 			(xy 132.08 151.13) (xy 138.43 151.13)
 		)
 		(stroke
@@ -5205,6 +5315,16 @@
 			(type default)
 		)
 		(uuid "25a1b1ea-9e14-4495-b4cd-76895b0f962a")
+	)
+	(wire
+		(pts
+			(xy 38.1 85.09) (xy 38.1 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "268fc2dc-9974-40b8-988a-eb6da2e6908a")
 	)
 	(wire
 		(pts
@@ -5238,7 +5358,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 91.44) (xy 38.1 93.98)
+			(xy 43.18 91.44) (xy 43.18 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5248,23 +5368,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 93.98) (xy 46.99 93.98)
+			(xy 43.18 93.98) (xy 54.61 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2d0605a5-881e-4336-89a5-95380876f842")
-	)
-	(wire
-		(pts
-			(xy 34.29 60.96) (xy 34.29 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30deb2c6-1dc1-4851-b81c-bfc470fbf65c")
 	)
 	(wire
 		(pts
@@ -5338,7 +5448,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 91.44) (xy 66.04 91.44)
+			(xy 64.77 91.44) (xy 66.04 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5398,6 +5508,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 71.12) (xy 100.33 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f262660-70a3-486b-9d95-f37c55aee4f3")
+	)
+	(wire
+		(pts
 			(xy 271.78 123.19) (xy 271.78 124.46)
 		)
 		(stroke
@@ -5415,6 +5535,16 @@
 			(type default)
 		)
 		(uuid "408e78b5-adef-4b98-9d22-e0de33040554")
+	)
+	(wire
+		(pts
+			(xy 31.75 60.96) (xy 38.1 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "415566ff-caf9-4b5a-b52a-fe8bdc2abbe4")
 	)
 	(wire
 		(pts
@@ -5468,6 +5598,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 88.9) (xy 50.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cbc7789-a532-442b-864e-4f9e7bba1986")
+	)
+	(wire
+		(pts
 			(xy 132.08 143.51) (xy 137.16 143.51)
 		)
 		(stroke
@@ -5478,7 +5618,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 83.82) (xy 22.86 86.36)
+			(xy 21.59 83.82) (xy 21.59 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5505,6 +5645,16 @@
 			(type default)
 		)
 		(uuid "5ee8d9c0-38d6-47a5-b579-43df94a970f1")
+	)
+	(wire
+		(pts
+			(xy 100.33 71.12) (xy 100.33 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "670e55a4-0b0e-4730-8aae-4a16d9f22e33")
 	)
 	(wire
 		(pts
@@ -5608,6 +5758,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 71.12) (xy 85.09 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e933c3-9a7f-4e5b-9049-533fc3697141")
+	)
+	(wire
+		(pts
 			(xy 271.78 63.5) (xy 271.78 64.77)
 		)
 		(stroke
@@ -5615,6 +5775,16 @@
 			(type default)
 		)
 		(uuid "793b211d-b723-4d0f-8832-41da4a796219")
+	)
+	(wire
+		(pts
+			(xy 31.75 58.42) (xy 31.75 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d653b0-fdc2-4fd4-af96-3b27119ccad0")
 	)
 	(wire
 		(pts
@@ -5718,7 +5888,17 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 58.42) (xy 41.91 58.42)
+			(xy 38.1 87.63) (xy 33.02 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903305bb-7df3-4624-9f35-e960ec6eeb52")
+	)
+	(wire
+		(pts
+			(xy 54.61 58.42) (xy 49.53 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5738,16 +5918,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 91.44) (xy 38.1 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98453f8d-4fdb-4191-afad-1c2ce39ae013")
-	)
-	(wire
-		(pts
 			(xy 101.6 93.98) (xy 101.6 104.14)
 		)
 		(stroke
@@ -5755,6 +5925,16 @@
 			(type default)
 		)
 		(uuid "990124ef-5946-4bb8-aa7a-757a19451eb4")
+	)
+	(wire
+		(pts
+			(xy 77.47 104.14) (xy 85.09 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99d24cd7-e7e2-4a13-a67d-300e31643d54")
 	)
 	(wire
 		(pts
@@ -5768,13 +5948,23 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 58.42) (xy 31.75 60.96)
+			(xy 77.47 71.12) (xy 77.47 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a437034-0970-487c-8d48-281977dbe4e4")
+		(uuid "9bdd54a0-6c1c-46e9-b434-fe0fae8189f0")
+	)
+	(wire
+		(pts
+			(xy 49.53 48.26) (xy 49.53 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a13271a6-412b-42bb-a267-32ebf9619d0e")
 	)
 	(wire
 		(pts
@@ -5798,7 +5988,17 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 80.01) (xy 35.56 81.28)
+			(xy 26.67 91.44) (xy 33.02 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ea97fc-2222-4be1-adae-87f030c2d9ad")
+	)
+	(wire
+		(pts
+			(xy 33.02 76.2) (xy 33.02 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5908,6 +6108,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 104.14) (xy 101.6 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b763cc6e-6c99-4607-9cab-23e9d4e84071")
+	)
+	(wire
+		(pts
 			(xy 204.47 88.9) (xy 207.01 88.9)
 		)
 		(stroke
@@ -5925,6 +6135,16 @@
 			(type default)
 		)
 		(uuid "b8c49aeb-23e9-403a-9c33-e9bf2b0bf4e5")
+	)
+	(wire
+		(pts
+			(xy 33.02 87.63) (xy 33.02 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b917403c-0c50-4424-965f-157572ff35bf")
 	)
 	(wire
 		(pts
@@ -5948,7 +6168,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 63.5) (xy 100.33 73.66)
+			(xy 100.33 63.5) (xy 100.33 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6008,6 +6228,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 58.42) (xy 41.91 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3cca36e-9db7-40d9-8e18-e39074e0c5c1")
+	)
+	(wire
+		(pts
 			(xy 203.2 63.5) (xy 203.2 64.77)
 		)
 		(stroke
@@ -6025,16 +6255,6 @@
 			(type default)
 		)
 		(uuid "c554c36b-ab12-4467-b725-42033b7a2a7e")
-	)
-	(wire
-		(pts
-			(xy 34.29 58.42) (xy 34.29 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cafcc71d-c914-4417-8864-78ad5b703570")
 	)
 	(wire
 		(pts
@@ -6058,6 +6278,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 85.09) (xy 43.18 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3ac81b-74e6-4d24-a962-4dd0e73ff347")
+	)
+	(wire
+		(pts
 			(xy 90.17 80.01) (xy 90.17 81.28)
 		)
 		(stroke
@@ -6078,7 +6308,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 88.9) (xy 45.72 88.9)
+			(xy 54.61 88.9) (xy 52.07 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6115,6 +6345,16 @@
 			(type default)
 		)
 		(uuid "d600d7de-28b5-4f53-ab5b-be23f4e6ef11")
+	)
+	(wire
+		(pts
+			(xy 50.8 85.09) (xy 52.07 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6137884-550a-4682-b7bc-ee859a3e2d26")
 	)
 	(wire
 		(pts
@@ -6238,6 +6478,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 77.47) (xy 38.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2813687-a3f3-403c-864f-f96fde501317")
+	)
+	(wire
+		(pts
 			(xy 116.84 181.61) (xy 116.84 182.88)
 		)
 		(stroke
@@ -6245,6 +6495,16 @@
 			(type default)
 		)
 		(uuid "e3ba8f27-52f0-4051-b93c-f9d479337dd1")
+	)
+	(wire
+		(pts
+			(xy 33.02 91.44) (xy 43.18 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a4200d-11af-4d98-b554-f7ff64432b1a")
 	)
 	(wire
 		(pts
@@ -6285,6 +6545,16 @@
 			(type default)
 		)
 		(uuid "e69366e9-361d-4db2-a078-048ec07a3d6a")
+	)
+	(wire
+		(pts
+			(xy 41.91 48.26) (xy 41.91 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e33e05-a476-488a-9251-5e4b596dae4c")
 	)
 	(wire
 		(pts
@@ -6378,7 +6648,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 60.96) (xy 77.47 73.66)
+			(xy 77.47 60.96) (xy 77.47 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6388,7 +6658,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 88.9) (xy 35.56 91.44)
+			(xy 33.02 85.09) (xy 33.02 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6415,16 +6685,6 @@
 			(type default)
 		)
 		(uuid "f86d2869-8b2c-408b-b260-cd96226e6a05")
-	)
-	(wire
-		(pts
-			(xy 31.75 60.96) (xy 34.29 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbe12f22-e5e4-45f6-bc84-bb2ade52a863")
 	)
 	(wire
 		(pts
@@ -6455,6 +6715,26 @@
 			(type default)
 		)
 		(uuid "fe8b1127-fb90-49c8-81cb-9a61afc04f45")
+	)
+	(wire
+		(pts
+			(xy 101.6 104.14) (xy 101.6 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fee3c278-1f59-4cb5-ae58-239eb3263c09")
+	)
+	(wire
+		(pts
+			(xy 24.13 60.96) (xy 31.75 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff4d994b-5f47-40e8-960e-d65cc74af9d9")
 	)
 	(global_label "RPI_DOUT_DP"
 		(shape input)
@@ -6502,7 +6782,7 @@
 	)
 	(global_label "C2_G_OUT"
 		(shape input)
-		(at 101.6 104.14 180)
+		(at 101.6 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6512,7 +6792,7 @@
 		)
 		(uuid "0a9b4dfd-65d6-4bff-a168-9a99560f8fe1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.3015 104.14 0)
+			(at 89.3015 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7360,7 +7640,7 @@
 	)
 	(global_label "C1_G_OUT"
 		(shape input)
-		(at 100.33 73.66 180)
+		(at 100.33 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7370,7 +7650,7 @@
 		)
 		(uuid "87e0a21a-27d1-4d6e-9a5c-24ee2e3d5f45")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.0315 73.66 0)
+			(at 88.0315 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7382,7 +7662,7 @@
 	)
 	(global_label "C2_G_IN"
 		(shape input)
-		(at 77.47 104.14 0)
+		(at 77.47 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7392,7 +7672,7 @@
 		)
 		(uuid "8aa9d27a-6eef-4f30-b987-e7d129dce7ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.0752 104.14 0)
+			(at 88.0752 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7844,7 +8124,7 @@
 	)
 	(global_label "C1_G_IN"
 		(shape input)
-		(at 77.47 73.66 0)
+		(at 77.47 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7854,7 +8134,7 @@
 		)
 		(uuid "e6dffa37-f250-4318-b847-da1bb733d661")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.0752 73.66 0)
+			(at 88.0752 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8676,75 +8956,6 @@
 			(project "Osciliscope"
 				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 27.94 60.96 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2385df41-be46-4c01-adc5-35648a926a66")
-		(property "Reference" "R19"
-			(at 24.892 55.626 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1M"
-			(at 28.448 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 27.94 59.182 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
-			(at 27.94 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 27.94 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c76e304-8f1e-43f7-bdc5-cc398dafcca2")
-		)
-		(pin "2"
-			(uuid "a4dd3e8b-2076-4073-9563-3bd2dd0c027d")
-		)
-		(instances
-			(project "Osciliscope"
-				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
-					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -9610,6 +9821,75 @@
 			(project "Osciliscope"
 				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.99 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "435198ef-6fd3-4d6e-9245-6dc9f689c759")
+		(property "Reference" "R21"
+			(at 46.482 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 46.482 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 46.99 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 46.99 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "474e308c-ad64-4b97-b9c8-6cec286f22cc")
+		)
+		(pin "2"
+			(uuid "1dbc4bdc-1e83-4d4d-b74a-4c71e93d2c84")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -10599,7 +10879,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Nidec_CAS-120A1")
-		(at 52.07 91.44 180)
+		(at 59.69 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10608,7 +10888,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b6e08ea-15da-410e-94d4-d6a8f9138f62")
 		(property "Reference" "SW4"
-			(at 52.07 82.55 0)
+			(at 59.69 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10616,7 +10896,7 @@
 			)
 		)
 		(property "Value" "SW_Nidec_CAS-120A1"
-			(at 52.07 85.09 0)
+			(at 59.69 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10625,7 +10905,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
-			(at 52.07 81.28 0)
+			(at 59.69 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10634,7 +10914,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-			(at 52.07 83.82 0)
+			(at 59.69 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10643,7 +10923,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 52.07 91.44 0)
+			(at 59.69 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11342,75 +11622,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 31.75 54.61 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "800a4be2-2195-47a9-8f8d-1518f908225c")
-		(property "Reference" "R20"
-			(at 25.654 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 25.654 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 33.528 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
-			(at 31.75 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 31.75 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4fb4c016-b000-4483-a25b-cda0055e3b7f")
-		)
-		(pin "2"
-			(uuid "d403b511-1b13-43f8-9b4a-11346e27c2f3")
-		)
-		(instances
-			(project "Osciliscope"
-				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 142.24 133.35 0)
 		(unit 1)
@@ -11740,6 +11951,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 38.1 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d05469c-3b18-44b2-b564-33206fac2f08")
+		(property "Reference" "C20"
+			(at 41.656 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20pF"
+			(at 41.148 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 39.0652 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf"
+			(at 38.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 38.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3eb2fca8-6e33-4c44-9553-204ad657ecc5")
+		)
+		(pin "2"
+			(uuid "b1c1c1fd-bbaf-4191-a0c9-455cbfb3958c")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 148.59 166.37 0)
 		(unit 1)
@@ -11807,7 +12085,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 38.1 58.42 90)
+		(at 45.72 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11816,7 +12094,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b31beef-b9a7-43dc-919e-3da48d5bf9a0")
 		(property "Reference" "C9"
-			(at 38.1 50.8 90)
+			(at 45.72 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11824,7 +12102,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 38.1 53.34 90)
+			(at 45.72 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11832,7 +12110,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 41.91 57.4548 0)
+			(at 49.53 57.4548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11841,7 +12119,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf"
-			(at 38.1 58.42 0)
+			(at 45.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11850,7 +12128,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 38.1 58.42 0)
+			(at 45.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12172,6 +12450,144 @@
 			(project "Osciliscope"
 				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa058cd2-658c-4ec1-ab5f-68e7cf5be976")
+		(property "Reference" "R19"
+			(at 41.656 44.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 45.72 44.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 45.72 50.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fb2c387-19df-4483-b5bc-4b8253ddf830")
+		)
+		(pin "2"
+			(uuid "f7a1a72b-7aef-43b6-a307-d7f615b063bd")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 31.75 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa978b0a-669c-4bb1-998b-8e076eec6f8d")
+		(property "Reference" "R20"
+			(at 26.67 54.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 29.21 54.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 29.972 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 31.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 31.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ae91e2d-d9a5-4a2d-87bb-06dec8a98ada")
+		)
+		(pin "2"
+			(uuid "01006ef9-fdde-48d2-8b06-dc789a186637")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -12671,7 +13087,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 80.01 180)
+		(at 33.02 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12680,7 +13096,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba2434f4-5ad9-472e-97a0-9f1421da97a9")
 		(property "Reference" "#PWR016"
-			(at 35.56 73.66 0)
+			(at 33.02 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12689,7 +13105,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 74.93 0)
+			(at 33.02 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12697,7 +13113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 80.01 0)
+			(at 33.02 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12706,7 +13122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 80.01 0)
+			(at 33.02 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12715,7 +13131,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 80.01 0)
+			(at 33.02 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12868,7 +13284,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Extended:RF, Connector, U.FL")
-		(at 22.86 91.44 180)
+		(at 21.59 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12877,7 +13293,7 @@
 		(fields_autoplaced yes)
 		(uuid "c632952c-368f-4df8-bffd-91d5f62a966b")
 		(property "Reference" "J3"
-			(at 19.05 89.8767 0)
+			(at 17.78 89.8767 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12886,7 +13302,7 @@
 			)
 		)
 		(property "Value" "U.FL"
-			(at 19.05 92.4167 0)
+			(at 17.78 92.4167 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12895,7 +13311,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_031-5539_Vertical"
-			(at 22.86 91.44 0)
+			(at 21.59 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12904,7 +13320,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2208151830_BAT-WIRELESS-BWU-FL-IPEX1_C5137195.pdf"
-			(at 22.86 91.44 0)
+			(at 21.59 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12913,7 +13329,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 22.86 91.44 0)
+			(at 21.59 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12922,7 +13338,7 @@
 			)
 		)
 		(property "LCSC" "C5137195"
-			(at 22.86 91.44 0)
+			(at 21.59 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13025,7 +13441,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Nidec_CAS-120A1")
-		(at 48.26 60.96 180)
+		(at 59.69 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13034,7 +13450,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6e6969e-2494-4e34-b499-8d8e22e2f76f")
 		(property "Reference" "SW3"
-			(at 48.26 52.07 0)
+			(at 59.69 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13042,7 +13458,7 @@
 			)
 		)
 		(property "Value" "SW_Nidec_CAS-120A1"
-			(at 48.26 54.61 0)
+			(at 59.69 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13051,7 +13467,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
-			(at 48.26 50.8 0)
+			(at 59.69 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13060,7 +13476,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-			(at 48.26 53.34 0)
+			(at 59.69 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13069,7 +13485,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 48.26 60.96 0)
+			(at 59.69 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13166,77 +13582,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 31.75 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c92d39ff-b9a7-493f-a02b-01bf07c60d8c")
-		(property "Reference" "R18"
-			(at 28.702 86.106 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1M"
-			(at 32.258 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 31.75 89.662 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
-			(at 31.75 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 31.75 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c935450c-50d1-4e2d-a618-3e01f7ac8db4")
-		)
-		(pin "2"
-			(uuid "029184e0-7704-4c6f-8664-e090e0083fb9")
-		)
-		(instances
-			(project "Osciliscope"
-				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 22.86 83.82 180)
+		(at 21.59 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13245,7 +13592,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9762267-4909-4424-96e2-1379e70d4218")
 		(property "Reference" "#PWR08"
-			(at 22.86 77.47 0)
+			(at 21.59 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13254,7 +13601,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 78.74 0)
+			(at 21.59 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13262,7 +13609,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 83.82 0)
+			(at 21.59 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13271,7 +13618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 83.82 0)
+			(at 21.59 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13280,7 +13627,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 83.82 0)
+			(at 21.59 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13576,6 +13923,74 @@
 			(project "Osciliscope"
 				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d02f6853-635e-490f-900f-8920dbe6cb06")
+		(property "Reference" "R10"
+			(at 88.9 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k"
+			(at 88.9 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 88.9 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 88.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be04d97d-1d90-4bd2-849b-bbefd9873705")
+		)
+		(pin "2"
+			(uuid "65b11d07-68d0-4fa3-a4f6-9c6bfa1a2ec2")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -13955,75 +14370,6 @@
 			(project "Osciliscope"
 				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 35.56 85.09 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e2350ca7-12e8-4703-8fd1-f929bd2c9ada")
-		(property "Reference" "R14"
-			(at 29.464 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 29.464 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 37.338 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
-			(at 35.56 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 35.56 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2cba30c0-8ffa-4298-9b19-ad169f93d77d")
-		)
-		(pin "2"
-			(uuid "83503d3c-0887-4fad-9fd8-758e5230422e")
-		)
-		(instances
-			(project "Osciliscope"
-				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
-					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -14473,6 +14819,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 88.9 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6d6897a-0e68-46eb-a3bc-3df877d2b1d3")
+		(property "Reference" "R18"
+			(at 88.9 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k"
+			(at 88.9 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 88.9 69.342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2129e1d0-3e2b-405f-87ba-8fc677d0f77c")
+		)
+		(pin "2"
+			(uuid "cf5a8c85-e7ea-49a6-866d-e490ab06228f")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 41.91 36.83 0)
 		(unit 1)
@@ -14608,8 +15022,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 33.02 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc9a9d47-c0cd-4ef1-95e8-1f1e6fa74a92")
+		(property "Reference" "R14"
+			(at 27.94 80.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 30.48 80.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 31.242 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 33.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 33.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81eb6612-92ad-4d7c-b953-16d6e20f0298")
+		)
+		(pin "2"
+			(uuid "15fa09d9-2493-4faf-aad0-cfe78aad17b5")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 41.91 88.9 90)
+		(at 46.99 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14617,7 +15100,7 @@
 		(dnp no)
 		(uuid "fcd396ad-ad02-4354-a886-d0f4d2d99c92")
 		(property "Reference" "C10"
-			(at 40.64 81.28 90)
+			(at 50.038 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14625,7 +15108,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 41.91 83.82 90)
+			(at 50.292 87.376 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14633,7 +15116,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 45.72 87.9348 0)
+			(at 50.8 87.9348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14642,7 +15125,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf"
-			(at 41.91 88.9 0)
+			(at 46.99 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14651,7 +15134,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 41.91 88.9 0)
+			(at 46.99 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
