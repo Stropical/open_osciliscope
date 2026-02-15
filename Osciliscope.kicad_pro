@@ -531,6 +531,14 @@
       {
         "netclass": "POWER",
         "pattern": "USBCRAW"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "V1.65"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "V.165RAW"
       }
     ]
   },
@@ -539,7 +547,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gen/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
