@@ -1,0 +1,18 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\ECE342 Project\open_osciliscope\FrontEndSimulation.net
+Start Time: Sun Feb 15 21:08:09 2026
+solver = Normal
+Maximum thread count: 14
+tnom = 27
+temp = 27
+method = trap
+No AC stimulus found:
+     Set the value of a current or voltage source to "AC 1."
+     to make it behave as a signal generator for AC analysis.
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.067 seconds.
+
+Files loaded:
+C:\ECE342 Project\open_osciliscope\FrontEndSimulation.net
+C:\Users\hanna\AppData\Local\LTspice\lib\sub\LTC4.lib
+
