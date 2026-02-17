@@ -4661,6 +4661,12 @@
 		(uuid "b41beaf1-3d6f-4d41-bcd5-81a06cb9cbf6")
 	)
 	(junction
+		(at 86.36 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd05bd9b-3052-4292-871c-125db03795d5")
+	)
+	(junction
 		(at 96.52 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4713,6 +4719,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f14b4ac4-2369-41f0-b63a-05ba2620faed")
+	)
+	(junction
+		(at 95.25 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdc30142-b08d-4657-a4cc-5f169c185aff")
 	)
 	(junction
 		(at 154.94 152.4)
@@ -4779,6 +4791,16 @@
 			(type default)
 		)
 		(uuid "098775d4-4252-4e5f-8e42-37504edf33da")
+	)
+	(wire
+		(pts
+			(xy 93.98 119.38) (xy 95.25 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a3621b0-4494-4edb-99a4-e8041469975d")
 	)
 	(wire
 		(pts
@@ -5292,7 +5314,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 60.96) (xy 88.9 60.96)
+			(xy 82.55 60.96) (xy 86.36 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5752,6 +5774,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 60.96) (xy 88.9 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992db995-32b0-40e2-916f-95946b9aea5e")
+	)
+	(wire
+		(pts
 			(xy 95.25 121.92) (xy 102.87 121.92)
 		)
 		(stroke
@@ -5932,7 +5964,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 109.22) (xy 95.25 121.92)
+			(xy 95.25 109.22) (xy 95.25 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6009,6 +6041,16 @@
 			(type default)
 		)
 		(uuid "bd6925f0-fccc-49e5-af7e-71c60328ef06")
+	)
+	(wire
+		(pts
+			(xy 95.25 119.38) (xy 95.25 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be84e611-d07c-4c6b-83d5-420ebbd3ae2f")
 	)
 	(wire
 		(pts
@@ -10334,6 +10376,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 86.36 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48a33a1d-31e3-482b-9a1d-b4bca173aa88")
+		(property "Reference" "TP7"
+			(at 88.9 62.9919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 88.9 65.5319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+			(at 81.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 86.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e956a80-1310-440b-b660-a6b4fde7e0b2")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 71.12 191.77 0)
 		(unit 1)
@@ -11770,6 +11879,71 @@
 			(project "Osciliscope"
 				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 93.98 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8725bfff-1790-48fe-97c5-01e1e555ce06")
+		(property "Reference" "TP8"
+			(at 90.678 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 90.678 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+			(at 93.98 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 93.98 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db9a9063-321f-4f63-b8df-f81ecb70d2be")
+		)
+		(instances
+			(project "Osciliscope"
+				(path "/8c683ef5-a777-4de0-90bd-818351a6a189"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
