@@ -73,7 +73,7 @@
 			(copper_finish "None")
 			(dielectric_constraints no)
 		)
-		(pad_to_mask_clearance 0)
+		(pad_to_mask_clearance 0.0508)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
@@ -16682,7 +16682,7 @@
 		(polygon
 			(pts
 				(xy 51.8 88.6) (xy 51.8 194) (xy 123.2 194) (xy 125.6 191.6) (xy 125.6 87.6) (xy 124.4 86.4) (xy 67.4 86.4)
-				(xy 67.4 73)
+				(xy 67.726353 73.326353)
 			)
 		)
 	)
