@@ -8341,7 +8341,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.5k"
+		(property "Value" "5.1k"
 			(at 135.636 140.97 90)
 			(effects
 				(font
@@ -9133,7 +9133,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.5k"
+		(property "Value" "5.1k"
 			(at 96.266 160.02 90)
 			(effects
 				(font
@@ -10429,7 +10429,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.5k"
+		(property "Value" "5.1k"
 			(at 96.52 157.48 90)
 			(effects
 				(font
@@ -11481,7 +11481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+		(property "Footprint" "ADC082S101CIMM_NOPB:SOP65P490X110-8N"
 			(at 167.386 112.014 0)
 			(effects
 				(font
@@ -13586,7 +13586,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.5k"
+		(property "Value" "5.1k"
 			(at 135.89 138.43 90)
 			(effects
 				(font

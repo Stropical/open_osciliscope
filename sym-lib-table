@@ -3,4 +3,5 @@
   (lib (name "DPDTSwitch")(type "KiCad")(uri "${KIPRJMOD}/Footprints/DPDTSwitch.kicad_sym")(options "")(descr ""))
   (lib (name "500SDP1S1M2QEA")(type "KiCad")(uri "${KIPRJMOD}/Footprints/Switch/500SDP1S1M2QEA.kicad_sym")(options "")(descr ""))
   (lib (name "USB4125-GF-A_REVA2")(type "KiCad")(uri "${KIPRJMOD}/Footprints/USB4125_GF_A/USB4125-GF-A_REVA2.kicad_sym")(options "")(descr ""))
+  (lib (name "ADC082S101CIMM")(type "KiCad")(uri "${KIPRJMOD}/Footprints/ADC082S101CIMM_NOPB/ADC082S101CIMM.kicad_sym")(options "")(descr ""))
 )
