@@ -3,4 +3,6 @@
   (lib (name "500SDP1S1M2QEA")(type "KiCad")(uri "C:/Users/hanna/Downloads/500SDP1S1M2QEA.pretty")(options "")(descr ""))
   (lib (name "USB4125_GF_A")(type "KiCad")(uri "${KIPRJMOD}/Footprints/USB4125_GF_A")(options "")(descr ""))
   (lib (name "ADC082S101CIMM_NOPB")(type "KiCad")(uri "${KIPRJMOD}/Footprints/ADC082S101CIMM_NOPB")(options "")(descr ""))
+  (lib (name "SPST")(type "KiCad")(uri "${KIPRJMOD}/Footprints/SPST.pretty")(options "")(descr ""))
+  (lib (name "GF-123-0054")(type "KiCad")(uri "${KIPRJMOD}/Footprints/GF-123-0054")(options "")(descr ""))
 )
